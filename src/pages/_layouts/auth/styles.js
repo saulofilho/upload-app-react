@@ -3,15 +3,21 @@ import { darken } from 'polished';
 
 export const Wrapper = styled.div`
   height: 100%;
+  width: 100%;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
 `;
 
 export const Content = styled.div`
   width: 100%;
-  max-width: 315px;
+  height: 100%;
   text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 
   form {
     display: flex;

@@ -21,7 +21,7 @@ export default function SignIn() {
   }
 
   return (
-    <>
+    <div className="form-wrapper">
       <div>
         <h1>upload app on aws s3</h1>
       </div>
@@ -35,6 +35,6 @@ export default function SignIn() {
         <button type="submit">{loading ? 'Carregando...' : 'Acessar'}</button>
         {/* <Link to="/register">Criar conta gratuita</Link> */}
       </Form>
-    </>
+    </div>
   );
 }

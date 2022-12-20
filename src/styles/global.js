@@ -22,4 +22,10 @@ export default createGlobalStyle`
   html, body, #root {
     height: 100%;
   }
+
+  .form-wrapper {
+    padding: 90px;
+    border: 5px solid #000;
+    background: white;
+  }
 `;
